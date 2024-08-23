@@ -5,7 +5,7 @@ import BlogTableItem from '../../../Components/AdminComponents/BlogTableItem'
 import axios from 'axios';
 import { toast } from 'react-toastify';
 
-const page = () => {
+const Page = () => {
 
   const [blogs, setBlogs] = useState([]);
 
@@ -51,4 +51,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
