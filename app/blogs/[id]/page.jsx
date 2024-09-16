@@ -110,9 +110,15 @@ const Page = ({ params }) => {
             share this article on social media
           </p>
           <div className="flex ">
-            <Image src={assets.facebook_icon} alt="" width={50} />
-            <Image src={assets.twitter_icon} alt="" width={50} />
-            <Image src={assets.googleplus_icon} alt="" width={50} />
+          <Link href="https://www.facebook.com" rel="noopener noreferrer">
+          <Image src={assets.facebook_icon} alt="Facebook" width={40} />
+        </Link>
+        <Link href="https://www.twitter.com" rel="noopener noreferrer">
+          <Image src={assets.twitter_icon} alt="Twitter" width={40} />
+        </Link>
+        <Link href="https://www.google.com" rel="noopener noreferrer">
+          <Image src={assets.googleplus_icon} alt="Google" width={40} />
+        </Link>
           </div>
         </div>
       </div>
